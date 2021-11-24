@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO(you): Make whatever changes needed to complete the assignment! -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>HTML Quiz</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+  <!--
+
+    ******************************************
+    DO NOT TRANSCRIBE THE ARTICLE YOURSELF!!!!
+    ******************************************
+
+    You do not have to type in all of the text on the page!
+
+    The contents of the article is in `index-content.txt`, which is
+    included in this directory. Copy and paste the contents of that file into
+    this HTML file as needed. You should only need to add HTML to markup the
+    content.
+
+  -->
+  <div class="wrapper">
+    <header class = "header">
+      <h3 class="header-content">WPR</h3>
+      <p class="header-sub-content">
+        <span class="header-items"> M </span>
+        <span class="header-items"> E </span> 
+        <span class="header-items"> R </span> 
+        <span class="header-items"> N </span> 
+      </p>
+    </header>
+  
+    <article>
+      <!-- Quiz-name -->
+      <section id="quiz-name">
+        <div class="text-content">
+          <h1 class="text-heading">HTML Quiz</h1>
+        </div>
+      </section>
+      <!-- Introduction -->
+      <section id="introduction">
+        <div class="intro-heading">
+          <p class = "intro-desc mt-18">By Tran Sy Hoang Son</p>
+        </div>
+        <div class="intro-section">
+          <h3 class="intro-sub-heading">The Test</h3>
+          <p class="intro-description mt-18">
+            The test contains 10 questions and there is no time limit.
+          <p class="intro-description"></p>
+            The test is not official, it's just a nice way to see how much you know, or don't know, about HTML.
+          </p>
+        </div>
+        <div class="intro-section">
+          <h3 class="intro-sub-heading mt-18">Count Your Score</h3>
+          <p class="intro-description mt-18-bottom">
+            You will get 1 point for each correct answer. At the end of the Quiz, your total score will be displayed. Maximum score is 10 points.
+          </p>
+        </div>
+        <div class="intro-footer">
+          <div class="intro-footer-section">
+            <h3 class="intro-sub-header">Start the quiz</h3>
+            <p class="intro-description mt-18">Good luck!</p>
+            <button id="intro-start">Start the HTML quiz ❯ </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Attempt quiz -->
+      <section id="attempt-quiz" class = "hidden">
+        <div class="container-question">
+          <div class="attempt-question">
+            
+          </div>
+          <div class="attempt-footer">
+            <div class="attempt-footer-section">
+              <button id = "attempt-submit">Submit your answers ❯ </button>
+            </div>
+          </div>
+        </div>
+        </section>
+
+      <!-- Review quiz -->
+      <section id="review-quiz" class="hidden">
+        <div class="review-footer">
+          <div class="review-footer-section">
+            <h3 class="review-heading">Result:</h3>
+            <p class="review-score mt-18"></p>
+            <p class="review-percentage"></p>
+            <p class="review-text mt-18"></p>
+            <button id="review-submit">Try again</button>
+          </div>
+        </div>
+      </section>
+    </article>
+  </div>
+  <!-- Confirm box -->
+  <div class="model">
+    <div class="model-container">
+      <header class="model-heading">
+        <p class="model-desc">Are you want to finish the quiz ?</p>
+      </header>
+      <div class="model-content">
+        <button id = "confirm" class = "button">Yes</button>
+        <button id = "cancel" class = "button">No</button>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
